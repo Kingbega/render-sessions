@@ -57,8 +57,6 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_France_King.sendMessage(Pair_Code_By_France_King.user.id, { text: ''+ b64data });
 
                let FLASH_MD_TEXT = `
-
-
 ʙᴀʀᴀᴋᴀ ᴍᴅ sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ🍀
 
 ʙᴏᴛ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ
