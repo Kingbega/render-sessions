@@ -59,19 +59,7 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_France_King.sendMessage(Qr_Code_By_France_King.user.id, { text: 'TOPU;;;' + b64data });
 	
 				   let FLASH_MD_TEXT = `
-ʙᴀʀᴀᴋᴀ ᴍᴅ sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ🍀
-
-ʙᴏᴛ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ
-https://t.me/baraka_bega
-
-ғᴏʀᴋ ᴀɴᴅ ɢɪᴠᴇ sᴛᴀʀ ʜᴇʀᴇ
-https://github.com/Kingbega/BARAKA-MD
-
-ᴊᴏɪɴ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴍᴏʀᴇ
-https://chat.whatsapp.com/G9QKCerGvtq6Au8znk3kvC
-
-ғᴏʟʟᴏᴡ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴍᴏʀᴇ
-https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h
+*ʙᴀʀᴀᴋᴀ ᴍᴅ sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅
 `
 	 await Qr_Code_By_France_King.sendMessage(Qr_Code_By_France_King.user.id,{text:FLASH_MD_TEXT},{quoted:session})
 
